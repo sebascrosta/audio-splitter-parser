@@ -1,0 +1,44 @@
+
+#result {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.left-col {
+    padding-top: 10px;
+}
+
+.btn {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.form-inline .three {
+    width: 33.3%
+}
+
+.form-inline .two {
+    width: 50%
+}
+
+.right {
+    float: right;
+}
+
+.left-row {
+    padding: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.form-inline {
+    width: 50%;
+    display: inline-block;
+}

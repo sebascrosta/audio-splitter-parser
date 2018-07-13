@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Audio split generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./index.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-6 left-col" id="container">
+                <label for="textarea1">Tiempos youtube - FORMATO: hh:mm:ss - Nombre</label>
+                <textarea class="form-control" rows="20" id="textarea1"></textarea>
+                <button type="button" class="btn-success" onclick="parse()">Execute</button>
+            </div>
+
+            <div class="col-xs-6 full">
+                <div class="row">
+                    <div id="result" readonly></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
